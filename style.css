@@ -7,7 +7,7 @@
   background-color:green;
 }
 #left{
-  width:50%;
+  width:40%;
   float:left;
   background-color:yellow;
   padding-right:5px;
@@ -17,7 +17,7 @@
 	text-align:justify;
 	text-indent: 20 px;
 	border-style:solid;
-  width:50%;
+  width:40%;
   float:right;
   background-color:red;
 
