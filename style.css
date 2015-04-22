@@ -1,25 +1,27 @@
 #header{
-  font-family: 'StormningAesirBold'; 
+  font-family:'RabbidHighwaySignExtendedRegular'; 
    font-weight: normal; 
-   font-style: normal; 
+   font-style: italic; 
+  text-align:center;
   width:100%;
   height:20%;
   background-color:green;
 }
 #left{
-  width:40%;
+  width:50%;
   float:left;
   background-color:yellow;
-  padding-right:5px;
+  padding-right:1px;
   height:5o%;
 }
 #right{
+  
 	text-align:justify;
 	text-indent: 20 px;
-	border-style:solid;
-  width:40%;
+	border-style:dashed ;
+  width:48%;
   float:right;
-  background-color:red;
+  background-color:D3DED1;
 
   height:5o%;
 }
