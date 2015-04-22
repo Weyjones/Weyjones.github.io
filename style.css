@@ -15,7 +15,9 @@
   height:5o%;
 }
 #right{
-  
+  font-family: 'AjarSansBold'; 
+   font-weight: bold; 
+   font-style: italic;
 	text-align:justify;
 	text-indent: 20 px;
 	border-style:dashed ;
