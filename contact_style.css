@@ -1,5 +1,8 @@
 #form{
 	border-style:solid;
+  width: 600px;
+height: 380px;
+margin: 0 auto;
 }
 #left{
   width:50%;
