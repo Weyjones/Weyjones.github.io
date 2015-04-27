@@ -1,0 +1,48 @@
+#title{
+  height:50px;
+  width:100%;
+  background-color:black;
+  color:white;
+  font-family: 'HussarPaneuropjskichLwCsObl'; 
+   font-weight: normal; 
+   font-style: normal;
+  text-align:center;
+  padding-top:20px;
+  margin-bottom:50;
+  
+}
+body {
+  background-image:url("http://www.crvdmedia.com/crvd/wp-content/uploads/2013/02/Wood_Background.jpg");
+  -webkit-background-size: cover;
+}
+#board{
+  border-style:solid;
+  height:500px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.darkCell{
+  height:50px;
+  width:50px;
+  background-color:black;
+  float:left;
+}
+.clearCell{
+  height:50px;
+  width:50px;
+  background-color:lightgray;
+  float:left;
+  text-align:center;
+}
+.break{
+  clear:both
+}
+.row{
+  height:10%;
+  
+}
+img.small{
+  height:50px;
+  width:50px;
+}
