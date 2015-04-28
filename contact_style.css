@@ -2,6 +2,7 @@
 	border-style:solid;
   width: 600px;
 height: 380px;
+background-color: #eee;
 margin: 0 auto;
 }
 #left{
@@ -20,6 +21,7 @@ margin: 0 auto;
 }
 h2{
   text-align:center;
+  color:gray;
 }
 h3{
   text-align:left;
