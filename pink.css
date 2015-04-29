@@ -1,10 +1,10 @@
 			a:link {
-				color: deeppink;
+				color: blue;
 				text-decoration: none;}
 			a:visited {
-				color: black;}
+				color: orange;}
 			a:hover {
-				color: deeppink;
+				color: red;
 				text-decoration: underline;}
 			a:active {
-				color: darkcyan;}
+				color: gray;}
