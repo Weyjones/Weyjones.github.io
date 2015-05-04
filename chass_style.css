@@ -17,9 +17,10 @@ body {
 }
 #board{
   border-style:solid;
-  height:500px;
-  margin-left:10px;
-  margin-right:10px;
+  height:400px;
+  width:400px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .darkCell{
