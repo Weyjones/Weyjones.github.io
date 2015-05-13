@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Spring 2015 - Week6:  Print a line">
+  <meta charset="utf-8">
+  <script src="week6.js"></script>
+  <title>Example:  Print a line</title>
+</head>
+<body>
+<h1>Example:  Print a line using the user's choices</h1>  
+<p><i>This example receives the input of the user and print a line using those values.</i></p>  
+<!-- Let us create a some HTML elements so the user can provide the values for a line -->  
+  Lines:<input id="line" type="text"><br>
+  Color for odd:<select id="coo">
+ <option value="red">red</option>
+ <option value="green">green</option>
+   <option value="blue">blue</option>
+ <option value="black">black</option>
+ </select><br>
+  Color for even:<select id="coe">
+ <option value="black">black</option>
+ <option value="green">green</option>
+   <option value="blue">blue</option>
+ <option value="red">red</option>
+ </select><br>
+  Symbol:<select id="sym">
+ <option value=""></option>
+ <option value="∆">∆</option>
+   <option value="©">©</option>
+ <option value="*">*</option>
+ </select><br>
+
+
+
+<button type="button" onclick="myfunction()" >click me</button> 
+<h2>Line will appear below:</h2>
+<div id="input"></div>
+  
+  
+</body>
+</html>
