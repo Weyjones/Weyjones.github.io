@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <title>Contact Us</title>
   <link rel="stylesheet" type="text/css" href="contact2_style.css">
+  <script src="contact2.js">
+  </script>
 </head>
 <body>
 <div id="header">
@@ -17,15 +19,15 @@
  <input type="radio" name="gender" value="f">Female<br><br>
   <table>
   <tr>
-   <td><label>Firet Name:</label></td>
-<td><input type="text" name="firstname"  size="20"></td>
+   <td><label>First Name:</label></td>
+<td><input type="text" id="firstName" name="firstname"  size="20"></td>
     </tr>
 <tr><td><label>Last Name:</label> </td>
-<td><input type="text" name="lastname" size="20"></td>
+<td><input type="text" id="lastName" name="lastname" size="20"></td>
     <tr><td><label>Email Address:</label></td>
-<td><input type="text" name="email" size="20"></td>
+<td><input type="text" id="email" name="email" size="20"></td>
 <tr><td><label>Phone Number:</label></td>
-<td><input type="text" name="phone" size="20"></td>
+<td><input type="text" id="phone" name="phone" size="20"></td>
 </table>
       <h3>Tell us more</h3>
   Which web technologies do you know?<br>
@@ -36,11 +38,11 @@
   <table>
     <tr>
       <td><label>Username:</label></td>
-      <td><input type="text" name="firstname" size="20"></td>
+      <td><input type="text" id="username" name="username" size="20"></td>
     </tr>
     <tr>
       <td><label>Password:</label></td>
-      <td><input type="password" name="upassword" size="20"></td>
+      <td><input type="password" id="password" name="password" size="20"></td>
     </tr>
   </table>
   
@@ -51,17 +53,17 @@
 <table>
   <tr>
    <td><label>Address:</label></td>
-<td><input type="text" name="firstname"  size="20"></td>
+<td><input type="text" id="address" name="address"  size="20"></td>
     </tr>
 <tr><td><label>City:</label> </td>
-<td><input type="text" name="lastname" size="20"></td>
+<td><input type="text" id="city" name="city" size="20"></td>
     <tr><td><label>Country:</label> </td>
-<td> <select name="agegroup">
+<td> <select id="country" name="agegroup">
  <option value="group1">US</option>
  <option value="group2">Others</option>
  </select></td>
 <tr><td><label>Zip Code:</label></td>
-<td><input type="text" name="phone" size="20"></td>
+<td><input type="text" id="zip" name="zip" size="20"></td>
 </table>
      
  </fieldset><br>
@@ -69,8 +71,7 @@
  <textarea name="comments" cols="35" rows="7"></textarea><br>
 
  <div id="botton">
- <br><input type="submit" name="cancel" value="cancel">
-  <input type="submit" name="Send" value="Submit">
+ <button onclick='return validateForm()' class="btn btn-default">Submit</button>
    </div>
   </div>
   </div>
