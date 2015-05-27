@@ -96,10 +96,13 @@ function validateCountry() {
 function validateZip() {
     var x = document.getElementById('zip').value;
   var y = document.getElementById('country').value;
-    if (y=="US" && x.length>5) {
+    if (y==="US"){
+      if(x.length>5 || x.length===0){
         alert("Not a valid Zip");
         return false;
-    }
+      }
+      return true;
+    }  
   return true;
 }
 function validateForm() {
