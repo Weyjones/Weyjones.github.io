@@ -79,7 +79,7 @@ function validateAddress() {
 function validateCity() {
     var x = document.getElementById('city').value;
     if (x.length===0) {
-        alert("Not a valid address");
+        alert("Not a valid city");
         return false;
     }
   return true;
@@ -94,14 +94,15 @@ function validateCountry() {
 }
 
 function validateZip() {
-    var x = document.getElementById('zip').value;
+  var x = document.getElementById('zip').value;
   var y = document.getElementById('country').value;
-    if (y==="US"){
+    if (y.length==2){
       if(x.length>5 || x.length===0){
         alert("Not a valid Zip");
         return false;
+      }else{
+        return true;
       }
-      return true;
     }  
   return true;
 }
