@@ -109,7 +109,7 @@ list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
   background-color: rgba(0,0,0,0.7);
 }
 #content1{
-  margin:20px 30px 20px 30px; 
+  padding: 40px; 
 }
 #content h2 { font-weight: normal; font-size: 22px; line-height: 33px; color: rgb(194, 179, 103);}
 #content h3 { font-size: 17px; font-weight: normal; }
