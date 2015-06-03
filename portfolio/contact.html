@@ -34,17 +34,17 @@
 <div id="content">
 <div id="content1">
 <h2>Contact Me</h2>
-<form action="thank.html" method="get" target="_blank">
+<form action="thank.html" method="get" >
  <label>Username:</label><br> 
-<input type="text" name="name" value="" size="20"><br>
- <label>Subject:</label><br> 
-<input type="text" name="subject" value="" size="60">
+<input type="text" id="name" name="name" value="" size="20"><br>
+ <label>Email:</label><br> 
+<input type="text" id="email" name="email" value="" size="60">
  <br>
  Enter comments:<br>
- <textarea name="comments" cols="60" rows="10"></textarea><br>
+ <textarea id = "comment" name="comments" cols="60" rows="10"></textarea><br>
  
  
- <br><input type="submit" name="Send" value="Send Form"> 
+ <br><button onclick='return validateForm()' class="btn btn-default">Submit</button>
  
 </form> 
 </div>
@@ -78,6 +78,7 @@ height="31" width="88" /></a>&nbsp;
 <!-- Please consider leaving the credit - link back to our website in the footer intact or if you want to remove it please buy link back free license on http://www.simpletemplates.org/simple-website-template-1.html
 -->
 Design by <a href="http://weyjones.github.io">Weizong Zhou</a>
+<p id="time"></p>
 </div>
 
 
