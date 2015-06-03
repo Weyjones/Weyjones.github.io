@@ -109,7 +109,7 @@ list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
   background-color: rgba(0,0,0,0.7);
 }
 #content1{
-  padding: 40px; 
+  padding: 27px; 
 }
 #content h2 { font-weight: normal; font-size: 22px; line-height: 33px; color: rgb(194, 179, 103);}
 #content h3 { font-size: 17px; font-weight: normal; }
@@ -153,6 +153,7 @@ border-top: 1px solid #1f1f1f;
 #footer a:hover { border-bottom: 1px dotted #ccc; }
 
 .left { float: left; }
-.right { float: right; }
+.right { float: right;
+text-align: right; }
 .clear { clear: both; }
 #line {background-color: black; height: 6px}
