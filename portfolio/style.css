@@ -60,10 +60,9 @@ color: white;
 font-size: 22px;
 letter-spacing: -1px;
 display: inline;
-}
-h2{
-font-weight: normal; 
-background: #000000; color: #d6ac51; padding: 10px; margin: 10px 0; 
+   font-weight: normal;
+background: #000000; color: #d6ac51; padding: 10px; margin: 10px 0;
+
 }
 
 #topmenu {
@@ -111,7 +110,12 @@ list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
 #content1{
   padding: 27px; 
 }
-#content h2 { font-weight: normal; font-size: 22px; line-height: 33px; color: rgb(194, 179, 103);}
+#content h2 { 
+  font-weight: normal;
+background: #000000; color: #d6ac51; padding: 10px; margin: 10px 0; 
+   font-size: 22px; 
+   line-height: 33px; 
+   color: rgb(194, 179, 103);}
 #content h3 { font-size: 17px; font-weight: normal; }
 .thumbnail {
   position: relative;
